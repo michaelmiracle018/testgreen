@@ -143,8 +143,8 @@ footer {
   justify-content: space-between;
   align-items: space-between;
   flex-direction: row;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
   margin-top: 100px;
 }
 
@@ -159,6 +159,14 @@ footer .left_footer_text h2,
   color: #004846;
 }
 
+@media screen and (max-width:1200px){
+  
+  footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .second_image_content {
     margin-top: 60px;
@@ -168,6 +176,10 @@ footer .left_footer_text h2,
   footer {
     flex-direction: column;
     gap: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
+
+
 </style>
